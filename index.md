@@ -70,7 +70,7 @@ the pitch.
 {% elsif site.carpentry == "dc" %}
 {% include dc/intro.html %}
 {% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
+{% include lc/nl/intro_nl.html %}
 {% endif %}
 
 {% comment %}
@@ -84,7 +84,7 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "dc" %}
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
+{% include lc/nl/who_nl.html %}
 {% endif %}
 
 {% comment %}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>A3DEDF98-A318-487A-8A59-D2B57231EE87</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>A3DEDF98-A318-487A-8A59-D2B57231EE87</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9vaxwDAAAAAAQQMAAAACiJ5eoBrjHgyrrHuB5msRr8
+				6JE5TBkqv/UBvqWjNVhvGAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAIAAAAAQEAAG1hdHRoaWpzCQAA
+				AAEBAABEb2N1bWVudHMAAAAJAAAAAQEAAFByb2plY3Rl
+				bgAAAAsAAAABAQAAQ2FycGVudHJpZXMAEQAAAAEBAAAy
+				MDIwLTA2LTA4LWxlaWRlbgAAABgAAAABBgAAEAAAACAA
+				AAAwAAAARAAAAFgAAABsAAAACAAAAAQDAAC4aQYAAAAA
+				AAgAAAAEAwAALEQKAAAAAAAIAAAABAMAAC1ECgAAAAAA
+				CAAAAAQDAADrgJQAAgAAAAgAAAAEAwAA/Lu5AgIAAAAI
+				AAAABAMAALi8uQICAAAAGAAAAAEGAACoAAAAuAAAAMgA
+				AADYAAAA6AAAAPgAAAAIAAAAAAQAAEHB9Wx5AAAAGAAA
+				AAECAAACAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAA
+				BAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
+				aWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQD
+				AAAAYEZkOgAAAAgAAAAABAAAQb8Z+4gAAAAkAAAAAQEA
+				AEQyREQ1RDk0LUNGMEYtMzg0RC1CODU2LTE4MzczMEIz
+				NTY1ORgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
+				AAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEA
+				AAAAAAAAEAAAAAQQAACIAAAAAAAAAAUQAAAIAQAAAAAA
+				ABAQAAA4AQAAAAAAAEAQAAAoAQAAAAAAAAIgAAAEAgAA
+				AAAAAAUgAAB0AQAAAAAAABAgAACEAQAAAAAAABEgAAC4
+				AQAAAAAAABIgAACYAQAAAAAAABMgAACoAQAAAAAAACAg
+				AADkAQAAAAAAADAgAAAQAgAAAAAAAAHAAABYAQAAAAAA
+				ABHAAAAgAAAAAAAAABLAAABoAQAAAAAAABDQAAAEAAAA
+				AAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/matthijs/Documents/Projecten/Carpentries/2020-06-08-leiden/</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>2020-06-08-leiden</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>

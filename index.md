@@ -6,12 +6,12 @@ country: "nl"
 language: "nl"
 latitude: "52.157310"
 longitude: "4.481450"
-humandate: "Jun 8-9, 2020"
-humantime: "09:30am-04:30pm"
+humandate: "8-9 Juni 2020"
+humantime: "09:30-16:30"
 startdate: 2020-06-08
 enddate: 2020-06-09
-instructor: ["Alice Doek", "Kristina Hettne", "Matthijs de Zwaan"]
-helper: ["helper één", "helper twee"]
+instructor: ["Alice Doek", "Kristina Hettne", "Henriette Reerink", "Matthijs de Zwaan"]
+helper: []
 email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-06-08-leiden
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -57,7 +57,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Algemene Informatie</h2>
 
 {% comment %}
 INTRODUCTION
@@ -97,11 +97,11 @@ address.
 {% endcomment %}
 {% if page.latitude and page.longitude %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Waar:</strong>
   {{page.address}}.
-  Get directions with
+  Bekijk de routebeschrijving op
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
+  of
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
 </p>
 {% endif %}
@@ -113,9 +113,9 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>Wanneer:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
+  {% include workshop_calendar_nl.html %}
 </p>
 {% endif %}
 
@@ -123,10 +123,13 @@ This block displays the date and links to Google Calendar.
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
-{% endcomment %}
-<p id="requirements">
+
+Oorspronkelijke tekst:
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+{% endcomment %}
+<p id="requirements">
+  <strong>Benodigdheden:</strong> Deelnemers moeten zelf een laptop met een Windows, macOS, of Linux besturingssysteem meenemen, waarop ze administratieve rechten hebben (dat wil zeggen: je moet zelf programma's kunnen installeren). Een tablet of Chromebook volstaat niet. Voorafgaand aan de workshop moeten ze een aantal softwarepaketten installeren (zie <a href="#setup">hieronder</a>).
 </p>
 
 {% comment %}
@@ -135,6 +138,8 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+{% comment %}
+Oorspronkelijke tekst:
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -152,6 +157,18 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% endcomment %}
+
+<p id="accessibility">
+  <strong>Toegankelijkheid:</strong> We doen ons best om deze workshop voor iedereen toegankelijk te maken. De organisatoren hebben gecontroleerd dat:
+  </p>
+<ul>
+  <li>het leslokaal toegankelijk is voor rolstoelen;</li>
+  <li>er toiletten beschikbaar zijn die toegankelijk zijn voor rolstoelen.</li>
+</ul>
+<p>
+ Het lesmateriaal wordt voor het begin van de workshop beschikbaar gemaakt. <i> Handouts</i> met groot lettertype kunnen beschikbaar worden gemaakt, indien de organisatoren daarom op tijd wordt gevraagd. Als op andere manieren het leren kan worden ondersteund (bijvoorbeeld met gebarentolk, of gelegenheid tot borstvoeding), kan de organisatie proberen om dat te faciliteren. Neem daarvoor tijdig contact op.
+</p>
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -160,7 +177,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact</strong>:
-  Please email
+  Neem contact op met
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
@@ -175,7 +192,7 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  voor meer informatie.
 </p>
 
 <hr/>
@@ -183,15 +200,15 @@ Display the contact email address set in the configuration file.
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h2 id="code-of-conduct">Gedragscode</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>.This document also outlines how to report an incident if needed.
+Iedereen die deelneemt aan een activiteit van de Carpentries verplicht zich er toe zich te conformeren aan de Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Gedragscode</a> ("Code of Conduct", alleen in het Engels beschikbaar). Die gedragscode beschrijft ook hoe incidenten kunnen worden gemeld.
 </p>
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Meld een Incident</button>
   </a>
 </p>
 <hr/>
@@ -208,10 +225,10 @@ where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h2 id="collaborative_notes">Samenwerking</h2>
 
 <p>
-We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We zullen <a href="{{page.collaborative_notes}}">deze samenwerkingsomgeving</a> gebruiken voor overleg, notities, het delen van URLs en korte stukjes computercode.
 </p>
 <hr/>
 {% endif %}
@@ -220,8 +237,8 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<h2 id="surveys">Vragenlijsten</h2>
+<p>Vul deze vragenlijsten in vóór en na de workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
@@ -235,7 +252,7 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Rooster</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -288,10 +305,18 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
+{% comment %}
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+{% endcomment%}
+
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  Om deel te nemen aan een
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -300,13 +325,8 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  is het nodig dat je onderstaande software op je computer beschikbaar hebt.
+  Daarnaast heb je een moderne webbrowser nodig.
 </p>
 
 {% if site.carpentry == "swc" %}
@@ -314,5 +334,5 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
+{% include lc/nl/setup_nl.html %}
 {% endif %}

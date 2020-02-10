@@ -95,6 +95,7 @@ exclude:
   - Makefile
   - bin/
   - .Rproj.user/
+  - 2020-06-08-leiden.bbprojectd
 
 # Turn on built-in syntax highlighting.
 highlighter: rouge

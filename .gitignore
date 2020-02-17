@@ -13,4 +13,6 @@ _site
 .vendor/
 .docker-vendor/
 Gemfile.lock
+*.bbprojectd
+*.bbprojectsettings
 *.bbprojectsettings

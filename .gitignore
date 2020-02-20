@@ -22,5 +22,6 @@ vendor/
 
 # Ignore files from BBEdit project
 *.bbprojectd
-*.bbprojectd/
+2020-06-08-leiden.bbprojectd/
+*.bbprojectsettings
 *.bbprojectsettings

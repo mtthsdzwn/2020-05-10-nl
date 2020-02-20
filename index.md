@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: "Universiteitsbibliotheek Leiden"
-address: "Lokaal ???, Witte Singel 27, Leiden"
+venue: "Universitaire bibliotheken Leiden"
+address: "Lokaal Heinsius (dag 1) & Vossius (dag 2), Witte Singel 27, Leiden"
 country: "nl"
 language: "nl"
 latitude: "52.157310"
@@ -11,8 +11,8 @@ humantime: "09:30-16:30"
 startdate: 2020-06-08
 enddate: 2020-06-09
 instructor: ["Alice Doek", "Kristina Hettne", "Henriette Reerink", "Matthijs de Zwaan"]
-helper: []
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+helper: ["Judith Spijk"]
+email: ["a.a.doek@uva.nl", "k.m.hettne@library.leidenuniv.nl", "", "m.c.de.zwaan@vu.nl"]
 collaborative_notes: https://pad.carpentries.org/2020-06-08-leiden
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -161,13 +161,12 @@ Oorspronkelijke tekst:
 
 <p id="accessibility">
   <strong>Toegankelijkheid:</strong> We doen ons best om deze workshop voor iedereen toegankelijk te maken. De organisatoren hebben gecontroleerd dat:
-  </p>
 <ul>
   <li>het leslokaal toegankelijk is voor rolstoelen;</li>
   <li>er toiletten beschikbaar zijn die toegankelijk zijn voor rolstoelen.</li>
 </ul>
 <p>
- Het lesmateriaal wordt voor het begin van de workshop beschikbaar gemaakt. <i> Handouts</i> met groot lettertype kunnen beschikbaar worden gemaakt, indien de organisatoren daarom op tijd wordt gevraagd. Als op andere manieren het leren kan worden ondersteund (bijvoorbeeld met gebarentolk, of gelegenheid tot borstvoeding), kan de organisatie proberen om dat te faciliteren. Neem daarvoor tijdig contact op.
+ Het lesmateriaal wordt voor het begin van de workshop beschikbaar gemaakt. <i>Handouts</i> met groot lettertype kunnen beschikbaar worden gemaakt, indien de organisatoren daarom op tijd wordt gevraagd. Als op andere manieren het leren kan worden ondersteund (bijvoorbeeld met gebarentolk, of gelegenheid tot borstvoeding), kan de organisatie proberen om dat te faciliteren. Neem daarvoor tijdig contact op.
 </p>
 
 {% comment %}
@@ -181,7 +180,7 @@ Display the contact email address set in the configuration file.
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
-  or
+  of
   {% else %}
   {% unless forloop.first %}
   ,
@@ -203,7 +202,7 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Gedragscode</h2>
 
 <p>
-Iedereen die deelneemt aan een activiteit van de Carpentries verplicht zich er toe zich te conformeren aan de Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Gedragscode</a> ("Code of Conduct", alleen in het Engels beschikbaar). Die gedragscode beschrijft ook hoe incidenten kunnen worden gemeld.
+Iedereen die deelneemt aan een activiteit van de Carpentries verplicht zich er toe zich te conformeren aan de <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Gedragscode</a> ("Code of Conduct", alleen in het Engels beschikbaar). Die gedragscode beschrijft ook hoe incidenten kunnen worden gemeld.
 </p>
 
 <p class="text-center">

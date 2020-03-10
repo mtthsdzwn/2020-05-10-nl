@@ -10,11 +10,10 @@ humandate: "8-9 Juni 2020"
 humantime: "09:30-16:30"
 startdate: 2020-06-08
 enddate: 2020-06-09
-instructor: ["Alice Doek", "Kristina Hettne", "Henriette Reerink", "Matthijs de Zwaan"]
-helper: ["Judith Spijk"]
+instructor: ["Alice Doek", "Kristina Hettne", "Matthijs de Zwaan"]
+helper: ["Henriette Reerink", "Judith Spijk"]
 email: ["a.a.doek@uva.nl", "k.m.hettne@library.leidenuniv.nl", "", "m.c.de.zwaan@vu.nl"]
 collaborative_notes: https://pad.carpentries.org/2020-06-08-leiden
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %}

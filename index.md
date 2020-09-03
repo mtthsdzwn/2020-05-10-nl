@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: "Universitaire bibliotheken Leiden"
-address: "Lokaal Heinsius (dag 1) & Vossius (dag 2), Witte Singel 27, Leiden"
+venue: "Online"
+address: "The world wide web"
 country: "nl"
 language: "nl"
-latitude: "52.157310"
+latitude:  "52.157310"
 longitude: "4.481450"
-humandate: "8-9 Juni 2020"
-humantime: "09:30-16:30"
-startdate: 2020-06-08
-enddate: 2020-06-09
+humandate: "Okt 5-6 & 12-13, 2020"
+humantime: "09:30-12:30"
+startdate: 2020-10-05
+enddate: 2020-10-13
 instructor: ["Alice Doek", "Kristina Hettne", "Henriette Reerink", "Matthijs de Zwaan"]
 helper: ["Judith Spijk"]
 email: ["a.a.doek@uva.nl", "k.m.hettne@library.leidenuniv.nl", "H.A.Reerink@uva.nl", "m.c.de.zwaan@vu.nl"]
-collaborative_notes: https://pad.carpentries.org/2020-06-08-leiden
+collaborative_notes: https://pad.carpentries.org/2020-10-online
 ---
 
 {% comment %}

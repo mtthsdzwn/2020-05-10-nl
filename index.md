@@ -7,7 +7,7 @@ language: "nl"
 latitude:  "52.157310"
 longitude: "4.481450"
 humandate: "Okt 5-6 & 12-13, 2020"
-humantime: "09:30-12:30"
+humantime: "09:00-12:00"
 startdate: 2020-10-05
 enddate: 2020-10-13
 instructor: ["Alice Doek", "Kristina Hettne", "Henriette Reerink", "Matthijs de Zwaan"]

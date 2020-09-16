@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "Online"
-address: "The world wide web"
+address: "Online"
 country: "nl"
 language: "nl"
 latitude:  "52.157310"
@@ -97,11 +97,13 @@ address.
 {% if page.latitude and page.longitude %}
 <p id="where">
   <strong>Waar:</strong>
-  {{page.address}}.
+  {{page.address}}, via Zoom.
+<!--
   Bekijk de routebeschrijving op
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   of
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+ -->
 </p>
 {% endif %}
 
@@ -113,8 +115,10 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>Wanneer:</strong>
-  {{page.humandate}}.
+  {{page.humandate}}. Op 26 oktober, 9u-11u, organiseren we terugkom-ochtend.
+<!--
   {% include workshop_calendar_nl.html %}
+ -->
 </p>
 {% endif %}
 
@@ -159,13 +163,16 @@ Oorspronkelijke tekst:
 {% endcomment %}
 
 <p id="accessibility">
-  <strong>Toegankelijkheid:</strong> We doen ons best om deze workshop voor iedereen toegankelijk te maken. De organisatoren hebben gecontroleerd dat:
+  <strong>Toegankelijkheid:</strong> We doen ons best om deze workshop voor iedereen toegankelijk te maken.
+<!--
+  De organisatoren hebben gecontroleerd dat:
 <ul>
   <li>het leslokaal toegankelijk is voor rolstoelen;</li>
   <li>er toiletten beschikbaar zijn die toegankelijk zijn voor rolstoelen.</li>
 </ul>
+ -->
 <p>
- Het lesmateriaal wordt voor het begin van de workshop beschikbaar gemaakt. <i>Handouts</i> met groot lettertype kunnen beschikbaar worden gemaakt, indien de organisatoren daarom op tijd wordt gevraagd. Als op andere manieren het leren kan worden ondersteund (bijvoorbeeld met gebarentolk, of gelegenheid tot borstvoeding), kan de organisatie proberen om dat te faciliteren. Neem daarvoor tijdig contact op.
+ Het lesmateriaal wordt voor het begin van de workshop beschikbaar gemaakt. Als op andere manieren het leren kan worden ondersteund, kan de organisatie proberen om dat te faciliteren. Neem daarvoor tijdig contact op.
 </p>
 
 {% comment %}
@@ -324,7 +331,7 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   is het nodig dat je onderstaande software op je computer beschikbaar hebt.
-  Daarnaast heb je een moderne webbrowser nodig.
+  Daarnaast heb je een moderne webbrowser nodig. Hieronder staan instructies voor de programma's waar we mee zullen werken. Probeer ze voor het begin van de workshop te installeren. Neem gerust contact op met de organisatoren als je problemen ondervindt met de installatie.
 </p>
 
 {% if site.carpentry == "swc" %}
